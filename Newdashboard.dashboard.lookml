@@ -1,4 +1,13 @@
-- name: dashboard
+- dashboard: newdashboard
+  title: Newdashboard
+  layout: newspaper
+  preferred_viewer: dashboards-next
+  tile_size: 100
+
+  filters:
+
+  elements:
+    - name: Users_list
   title: Untitled Visualization
   model: ecommerce_vinay
   explore: order_items
